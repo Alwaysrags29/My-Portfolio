@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.16/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="styles.css"> <!-- Add a separate CSS file for custom styles -->
+</head>
+<body class="bg-fixed bg-cover bg-center bg-no-repeat" style="background-image: url('OIP.jpeg');">
+
+    <!-- Navbar -->
+    <nav class="bg-blue-500 p-4">
+        <div class="container mx-auto">
+            <h1 class="text-2xl font-semibold text-white">PASALA VENGALARAO</h1>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="bg-opacity-80 text-white py-16">
+        <div class="container mx-auto text-center">
+            <img src="rags.2.jpg" alt="Profile Image" class="rounded-full w-50 h-40 mx-auto mb-4">
+            <h2 class="text-4xl font-semibold">Fresher Graduate Engineer Trainee</h2>
+            <p class="mt-4 text-lg">"To keep learning and enhance my skills in a dynamic and
+                stable workspace"</p>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section class="py-16">
+        <div class="container mx-auto">
+            <h2 class="text-3xl font-semibold text-green-800">About Me</h2>
+            <p class="mt-4 text-lg text-green-600">
+                Hello, I'm a recent engineering graduate with a strong passion for problem-solving Looking for a challenging role in Information and Technology environment. Where I could utilize my knowledge and skills for better productivity of the Organization and to earn a carrier which provide satisfaction and self-development
+            </p>
+        </div>
+    </section>
+
+    <!-- Projects Section with Background Image -->
+<section class="bg-projects bg-cover bg-no-repeat py-16">
+    <div class="container mx-auto bg-opacity-80 px-4 py-8 rounded-lg">
+        <h2 class="text-3xl font-semibold text-white">Projects</h2>
+        <p class="mt-4 text-lg text-white">
+            Check out some of my recent projects.
+        </p>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-6">
+            <!-- Project Card 1 -->
+            <div class="project-card bg-white bg-opacity-80 p-6 rounded-lg shadow-lg">
+                <h3 class="text-xl font-semibold">IOT Data Sharing with Proxy Re-Encryption and Blockchain</h3>
+                <p class="mt-4 text-gray-600">•	Developed a robust IoT data sharing system leveraging cutting-edge technologies.
+                   <br> •	Implemented Proxy Re-Encryption to ensure secure data sharing without compromising original content.
+                    <br>•	Created a scalable solution to accommodate a growing number of IoT devices and users.
+                    <br>•	Collaborated with cryptography experts, blockchain developers, and IoT specialists to achieve system synergy.
+                    <br>•	Proven ability to innovate and adapt in a rapidly evolving technological landscape.
+                   <br> •	Showcased problem-solving skills, attention to detail, and dedication to data security.
+                    
+                    .</p>
+            </div>
+            <!-- Project Card 2 -->
+            <div class="project-card bg-white bg-opacity-80 p-6 rounded-lg shadow-lg">
+                <h3 class="text-xl font-semibold">CODEZEAL</h3>
+                <p class="mt-4 text-gray-600">•	In advanced technical education, laboratories are very important environment for student learning. Laboratory experience is a key factor in engineering education.
+                    <br>•	In this virtual lab, student can be able to login with their credentials to the page. After completion of task, the students can save the document with their name and Roll number.
+                    
+                    .</p>
+            </div>
+            <!-- Project Card 3 -->
+            <div class="project-card bg-white bg-opacity-80 p-6 rounded-lg shadow-lg">
+                <h3 class="text-xl font-semibold">COLLEGE WEBSITE</h3>
+                <p class="mt-4 text-gray-600">•	This is a web-oriented application allows us to access the whole information about the college, staffs, students, facilities etc..</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- Contact Section with Background Image -->
+<section class="bg-contact bg-cover bg-no-repeat py-16">
+    <div class="container mx-auto bg-opacity-80 px-4 py-8 rounded-lg">
+        <h2 class="text-3xl font-semibold text-white">Contact Me</h2>
+        <p class="mt-4 text-lg text-white">
+            Feel free to reach out to me using the contact form below.
+        </p>
+        <form class="mt-8 max-w-md">
+            <div class="grid grid-cols-1 gap-6">
+                <div>
+                    <label for="name" class="block text-gray-300">Name</label>
+                    <input type="text" id="name" name="name" class="mt-1 p-2 w-full bg-white bg-opacity-80 rounded-md">
+                </div>
+                <div>
+                    <label for="email" class="block text-gray-300">Email</label>
+                    <input type="email" id="email" name="email" class="mt-1 p-2 w-full bg-white bg-opacity-80 rounded-md">
+                </div>
+                <div>
+                    <label for="message" class="block text-gray-300">Message</label>
+                    <textarea id="message" name="message" rows="4" class="mt-1 p-2 w-full bg-white bg-opacity-80 rounded-md"></textarea>
+                </div>
+                <div class="flex justify-end">
+                    <button type="submit" class="px-4 py-2 bg-blue-500 text-white rounded-md hover:bg-blue-600">Submit</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</section>
+<!-- CV Download Section with Background Image -->
+<section class="bg-cover bg-no-repeat bg-center" style="background-image: url('cv-background.jpg');">
+    <div class="bg-black bg-opacity-70 py-16">
+        <div class="container mx-auto text-center text-white">
+            <h2 class="text-3xl font-semibold">Download My CV</h2>
+            <p class="mt-4 text-lg">
+                Click the button below to download my CV (resume).
+            </p>
+            <a href="vengalrao fresher resume.docx" download class="mt-6 inline-block px-6 py-3 bg-blue-500 text-white rounded-md hover:bg-blue-600">
+                Download CV
+            </a>
+        </div>
+    </div>
+</section>
+
+
+
+
+    <!-- Footer Section -->
+    <footer class="bg-gray-900 text-white py-4">
+        <div class="container mx-auto text-center">
+            <div class="flex justify-center space-x-6">
+                <a href="https://www.linkedin.com/in/vengalarao-pasala" class="text-2xl text-blue-400 hover:text-blue-600">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="https://github.com/Alwaysrags29" class="text-2xl text-blue-400 hover:text-blue-600">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://twitter.com/always_rags" class="text-2xl text-blue-400 hover:text-blue-600">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="https://www.instagram.com/alwaysrags29/" class="text-2xl text-blue-400 hover:text-blue-600">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="https://www.facebook.com/profile.php?id=100015321361881" class="text-2xl text-blue-400 hover:text-blue-600">
+                    <i class="fab fa-facebook"></i>
+                </a>
+            </div>
+            <p class="mt-4">&copy; 2023 Pasala Vengalarao. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Optional: Add JavaScript for interactivity -->
+    <script src="script.js"></script>
+</body>
+</html>
